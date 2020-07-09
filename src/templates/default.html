@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{= it.global.title }}</title>
+		{{~it.assets.css :file:index}}<link rel="stylesheet" href="{{=it.dir.css+file}}" >
+		{{~}}
+	</head>
+	<body>
+		<main>
+			{{= it.document }}
+		</main>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		{{~it.assets.js :file:index}}
+		<script src="{{=it.dir.js+file}}"></script>{{~}}
+	</body>
+</html>
