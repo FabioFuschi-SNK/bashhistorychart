@@ -21,7 +21,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-zetzer": "^1.0.4",
     "less-plugin-glob": "^3.0.0",
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "pump": "^3.0.0",
     "yargs": "^15.1.0"
   },
